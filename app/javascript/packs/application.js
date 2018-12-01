@@ -5,6 +5,7 @@ import { initUpdateNavbarOnScroll } from '../components/navbar';
 import { autocompleteSearch } from '../components/autocomplete';
 import { bookmark } from '../components/bookmarking';
 import { booking } from '../components/booking';
+import { slider } from '../components/portfolio'
 
 const homePage = document.querySelector('.pages.home');
 if (homePage) {
@@ -19,3 +20,4 @@ if (autoCompleteField) {
 
 bookmark();
 booking();
+slider();
