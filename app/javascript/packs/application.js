@@ -4,6 +4,7 @@ import { loadDynamicBannerText } from '../components/banner';
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 import { autocompleteSearch } from '../components/autocomplete';
 import { bookmark } from '../components/bookmarking';
+import { booking } from '../components/booking';
 
 const homePage = document.querySelector('.pages.home');
 if (homePage) {
@@ -17,3 +18,4 @@ if (autoCompleteField) {
 }
 
 bookmark();
+booking();

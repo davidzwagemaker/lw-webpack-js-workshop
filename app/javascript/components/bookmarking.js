@@ -4,7 +4,6 @@ function toggleIcon(event) {
 };
 
 function bookmark() {
-  console.log('hello from bookmark')
   document.querySelectorAll(".dev-bookmark").forEach((bookmark) => {
     bookmark.addEventListener("click", (event) => {
       event.preventDefault();
