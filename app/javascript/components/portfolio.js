@@ -21,7 +21,7 @@ function slider() {
     }
   });
 
-  document.querySelector('.fas.fa-chevron-right').onclick = function() {
+  document.querySelector('<div class="fas "></div>fa-chevron-right').onclick = function() {
     console.log('hello')
     slider.goTo('next');
   }
