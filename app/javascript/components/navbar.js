@@ -1,6 +1,5 @@
 function initUpdateNavbarOnScroll() {
   const navbar = document.querySelector('.navbar-wagon');
-  console.log('hello');
   if (navbar) {
     window.addEventListener('scroll', () => {
       if (window.scrollY >= window.innerHeight/2) {
