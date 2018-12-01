@@ -66,7 +66,7 @@ Create a `navbar.js` in the components folder to implement features related to t
 
 On the landing page, the navbar starts with the class **`navbar-wagon-transparent`**, which has the properties to make it transparent, and the class **`navbar-wagon-filled`** styles a white navbar.
 
-You can add an __event listener__ to `window` to listen to the `scroll` event. When the window scrolls past halfway of the banner you should __remove__ the `navbar-wagon-transparent` class and __add__ the `navbar-wagon-transparent` class. When you scroll back up, you need to implement the reverse behaviour.
+You can add an __event listener__ to `window` to listen to the `scroll` event. When the window scrolls past halfway of the banner you should __remove__ the `navbar-wagon-transparent` class and __add__ the `navbar-wagon-filled` class. When you scroll back up, you need to implement the reverse behaviour.
 
 __Hint:__ The window object has a `scrollY` which gives you its y-axis or vertical position and an `innerHeight` that measures how tall the window is.
 
